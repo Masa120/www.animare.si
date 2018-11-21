@@ -45,6 +45,20 @@ html,body{
 	width: 950px;
 }
 
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none;
+	height: 30px;
+}
+
+#Navigacija li {
+	
+}
+
 #Vsebina {
 	background-color: orange;
 	min-height: 350px;
