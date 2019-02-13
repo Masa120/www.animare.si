@@ -164,6 +164,18 @@ h2 {
 	filter: contrast(150%);
 }
 
+.SlikaVGaleriji {
+	margin: 0 0 10px 10px;
+	box-shadow: 2px 2px 3px 2px rgba(51,51,51,.75);
+	transition: all 1s ease;
+}
+
+.SlikaVGaleriji:hover {
+	box-shadow: 2px 2px 5px 4px rgba(51,51,51,.75);
+	transition: all .75s ease;
+	filter: contrast(150%);
+}
+
 .Tabela {
 	border-collapse: collapse;
 	border: 3px;
@@ -188,6 +200,58 @@ h2 {
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+} 
+
+.vetrnica:link {
+	background-color: none;
+	text-decoration: underline;
+	color: brown;
+}
+
+.vetrnica:hover {
+	background-color: none;
+	text-decoration: none;
+	color: orange;
+	transition: all 2s ease;
+}
+
+.animateka:link {
+	background-color: none;
+	text-decoration: underline;
+	color: brown;
+}
+
+.animateka:hover {
+	background-color: none;
+	text-decoration: none;
+	color: orange;
+	transition: all 2s ease;
+}
+
+.ecfa:link {
+	background-color: none;
+	text-decoration: underline;
+	color: brown;
+}
+
+.ecfa:hover {
+	background-color: none;
+	text-decoration: none;
+	color: orange;
+	transition: all 2s ease;
+}
+
+.zemljevid:link {
+	background-color: none;
+	text-decoration: underline;
+	color: brown;
+}
+
+.zemljevid:hover {
+	background-color: none;
+	text-decoration: none;
+	color: orange;
+	transition: all 2s ease;
 }
 
 #Noga {
