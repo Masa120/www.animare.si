@@ -41,20 +41,41 @@
 				<article id="Clanek">
 					<h1>Prijava na dogodek</h1>
 					<img src="./Grafika/Animacija.jpg" alt="Z animacijo lahko prikažejo nadnaravne sposobnosti." title="Z animacijo lahko prikažejo nadnaravne sposobnosti." class="SlikaVClanku">
-                    <form>Ime in priimek: <input></form>
-                    <form>e-poštni naslov: <input></form>
-                    <form>Telefon: <input></form>
-                    <form>Izberite dogodek:
-                    	<select>
+					<br>
+
+                    <form target="_blank" method="post" action="https://projekt.smgs.si/animare/poslji.php">
+
+                    	Ime in priimek: 
+                    	<input type="text" name="ImePriimek" placeholder="Vpišite ime in priimek">
+                    <br>
+
+                    	E-poštni naslov: 
+                    	<input type="text" name="ePostniNaslov" placeholder="Vpišite email">
+                    <br>
+
+                    	Telefon: 
+                    	<input type="text" name="Telefon" placeholder="Vpišite telefon">
+                    	<br>
+
+                    	Izberite dogodek:
+                    	<select name="IzbraniDogodek">
                     		<option>Delavnica</option>
                     		<option>Razstava</option>
                     		<option>Predavanje</option>
                     	</select>
-                    </form>
-                    <form>Želite prejeti e-gradivo: </form>
-                    <form>Komentar: <textarea rows="4"></textarea></form>
+                    <br>
 
-                    <button>Poslji</button>
+                    	Želite prejeti e-gradivo: 
+                		<input name="PrejemanjeGradiva" type="checkbox" value="DA" checked>
+                	<br>
+
+                    	Komentar: 
+                    <br>
+                    	<textarea name="VpisiteKomentar" placeholder="Vpišite komentar" cols="40" rows="5"></textarea>
+                    <br>
+                    <input type="submit" value="Pošlji">
+
+                    </form>
                 </article>
 
 				<aside id="Sorodno">
